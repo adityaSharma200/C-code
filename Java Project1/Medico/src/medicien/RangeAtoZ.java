@@ -410,8 +410,8 @@ import java.util.Scanner;
 				break;
 			}
 			case "5": {
-				Home h = new Home();
-				h.home();
+				Medicines m = new Medicines();
+				m.display();
 				break;
 				}
 			default:
@@ -502,6 +502,11 @@ import java.util.Scanner;
 			{
 				rangeaAtoZ();
 			}
+			else
+			{    System.err.println("Please  Enter valid input .");
+				rangeaAtoZ();
+			}
+			
 		}
 		
 		
